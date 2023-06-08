@@ -17,8 +17,8 @@ public:
 	std::vector<char> getI();
 	void setF(std::vector<char>& new_F);
 	std::vector<char> getF();
-	void setDelta(std::vector<std::vector<char>>& new_delta);
-	std::vector<std::vector<char>> getDelta();
+	void setDelta(std::vector<std::vector<std::vector<char>>& new_delta);
+	std::vector<std::vector<std::vector<char>>> getDelta();
 
 
 private:
@@ -26,7 +26,7 @@ private:
 	std::vector<char> Q;
 	std::vector<char> I;
 	std::vector<char> F;
-	std::vector<std::vector<char>> delta;
+	std::vector<std::vector<std::vector<char>>> delta;
 };
 
 #endif // AUTOMATA
