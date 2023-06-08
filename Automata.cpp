@@ -30,6 +30,6 @@ std::vector<char> Automata::getF(){
 void Automata::setDelta(std::vector<std::vector<std::vector<char>>>& new_delta){
 	this-> delta = new_delta;
 }
-std::vector<std::vector<char>> Automata::getDelta(){
+std::vector<std::vector<std::vector<char>>> Automata::getDelta(){
 	return this-> delta;
 }
